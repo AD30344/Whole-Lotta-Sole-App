@@ -1,0 +1,76 @@
+img {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.shop {border-radius: 8px;}
+
+.ShoeInventory{
+  border: 6px solid #949599;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(61, 53, 53);
+  }
+  
+  .active {
+    background-color: #328eda;
+  }
+  
+button{
+    background-color: #308fe7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.Title{
+    text-align:center;
+    height: 5%;
+    width: 100%;
+}
+
+h2{
+   color:white;
+    font-family: fantasy;
+}
+
+html{
+    background-color: crimson;
+    text-align:center;
+}
